@@ -9,12 +9,13 @@
 Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  spec.name         = "SSUtilities"
+  spec.name         = "SSeoUtilities"
   spec.version      = "0.0.1"
   spec.summary      = "Just a place where I stuff all the small things together."
 
   spec.description  = <<-DESC
-  This is a library that holds a bunch of utility classes.
+  This is a library that holds a bunch of utility classes. There will be more to
+  add but I think I won't spend time to write guides.
                    DESC
 
   spec.homepage     = "https://github.com/ndson040496/SSUtilitiesiOS"
@@ -28,7 +29,6 @@ Pod::Spec.new do |spec|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.ios.deployment_target = "12.0"
-  spec.osx.deployment_target = "10.15"
   spec.swift_versions = "5"
 
 
